@@ -1,4 +1,4 @@
-/* ======== ESTILO GENERAL ======== */
+
 
 body {
     margin: 0;
@@ -8,7 +8,7 @@ body {
     color: #222;
 }
 
-/* Contenedor */
+
 .contenedor {
     width: 90%;
     max-width: 1100px;
@@ -16,7 +16,7 @@ body {
     padding: 40px 0;
 }
 
-/* ======== TITULO ======== */
+
 
 .titulo {
     text-align: center;
@@ -32,7 +32,7 @@ body {
     text-shadow: 2px 2px 8px rgba(0,0,0,.15);
 }
 
-/* ======== TARJETA PRINCIPAL ======== */
+
 
 .tarjeta-principal {
     background: white;
@@ -61,7 +61,7 @@ body {
     line-height:1.6;
 }
 
-/* ======== BOTÓN ANIMADO ======== */
+
 
 .boton-animado{
 
@@ -90,7 +90,7 @@ body {
     box-shadow:0 10px 20px rgba(0,123,255,.4);
 }
 
-/* ======== IMAGEN ======== */
+
 
 .seccion-imagen{
 
@@ -128,7 +128,6 @@ body {
 
 }
 
-/* ======== BOTÓN CON SOMBRA ======== */
 
 .seccion-boton{
 
@@ -168,7 +167,6 @@ body {
 
 }
 
-/* ======== TARJETA ELEVABLE ======== */
 
 .tarjeta-elevable{
 
@@ -221,7 +219,6 @@ body {
 
 }
 
-/* ======== PIE DE PÁGINA ======== */
 
 .pie-pagina{
 
