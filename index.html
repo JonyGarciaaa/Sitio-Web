@@ -1,56 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan García </title>
+    <title>Laboratorio CSS</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Jonathan Garcia</h1>
-    <p>Hola, soy un estudiante de ingenieria en informatica en sistemas que le gusta aprender sobre la carrera y estoy emocionado por el curso de programacion web</p>
-    <p>Me gustaria aplicar mucho la musica casi de todos los genero asi mismo tambien me gusta bastante leer, y me emociona ya estar cerca de cerrar la carrera y seguir aplicando mis conocimientos que aprendo en la u como en mi trabajo. Me gusta tambien el futbol. </p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdyDVULT9IOhKFhEXToy_gJWCPhGntT4zCveZJxXX4H_biNjmfQolGEDU&s=10">
-    <div>
-        <a href="https://www.youtube.com/">Youtube</a>
-    </div>
-    <div>
-        <a href="https://about.gitlab.com/">GitLab</a>
-    </div>
-    <div>
-        <a href="https://configurator.porsche.com/es-GT/mode/model/992452">Configuracion de Porsche</a>
-    </div>
-    <div>
-        <h2>Pasatiempos</h2>
-    </div>
-    <ol>
-        <li>Jugar videojuegos</li>
-        <li>Escuchar musica</li>
-        <li>Leer</li>
-    </ol>
-    <div>Cursos que llevo este semestre</div>
-    <table border="1">
-        <tr>
-            <td>Nombre</td>
-        </tr>
-        <tr><td>Programacion web</td></tr>
-        <tr><td>Virtualizacion</td></tr>
-        <tr><td>Ingenieria de software 1 </td></tr>
-    </table>
-    <div>
-        <h2>Ingresa tus datos </h2>
-    </div>
-    <form>
-        <div>
-            Nombre: <input type="text">
-        </div>  
 
-        <div>
-            Correo Electronico: <input type="text>"
-        </div>
-        <div>
-            Mensaje: <textarea></textarea>
-        </div>
-        
-    </form>
+    <main class="contenedor">
+
+        <!-- Título con degradado -->
+        <h1 class="titulo">
+            Estadisticas de Lionel Messi
+        </h1>
+
+        <!-- Sección principal con apariencia de tarjeta -->
+        <section class="tarjeta-principal">
+
+            <h2></h2>
+
+            <p>
+                A continuación podrás explorar las diferentes estadísticas de Lionel Messi a lo largo de sus participaciones en los Mundiales de la FIFA.
+            </p>
+
+            <!-- Botón animado -->
+            <button class="boton-animado">
+                Adelante
+            </button>
+
+        </section>
+
+        <!-- Imagen que cambia de tamaño -->
+        <section class="seccion-imagen">
+            <img
+                class="imagen-hover"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs9tf6msLW6KOQYjoc0ESrALEHt1iDMN5kSM9LB1s01kitQR2nfur5PP7J&s=10"
+                alt="Mundiales hasta la fecha"
+            >
+
+        </section>
+
+        <!-- Botón con sombra animada -->
+        <section class="seccion-boton">
+
+            <h2>Pulsa para saber las del siguiente mundial</h2>
+
+            <button class="boton-sombra">
+                Proximo mundial
+            </button>
+
+        </section>
+
+        <!-- Tarjeta que se eleva -->
+        <section class="tarjeta-principal">
+
+            <h2>Participaciones</h2>
+
+            <p>
+                Lionel Messi ha disputado los mundiales de
+                Alemania 2006, Sudáfrica 2010, Brasil 2014,
+                Rusia 2018 y Catar 2022, donde consiguió el
+                título mundial con la selección argentina.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie-pagina">
+
+        <p>
+            © 2026 - Programacion Web - Jonathan Garcia
+        </p>
+
+    </footer>
+
 </body>
 </html>

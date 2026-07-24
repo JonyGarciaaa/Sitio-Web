@@ -1,0 +1,241 @@
+/* ======== ESTILO GENERAL ======== */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: linear-gradient(135deg, #d8f3ff, #ffffff, #e8f9ff);
+    color: #222;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* ======== TITULO ======== */
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 35px;
+
+    background: linear-gradient(90deg, #00a8ff, #0056b3, #ffd700);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    text-shadow: 2px 2px 8px rgba(0,0,0,.15);
+}
+
+/* ======== TARJETA PRINCIPAL ======== */
+
+.tarjeta-principal {
+    background: white;
+
+    padding: 35px;
+    margin-bottom: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+
+    transition: .4s;
+}
+
+.tarjeta-principal:hover{
+    transform: translateY(-8px);
+}
+
+.tarjeta-principal h2{
+    color:#0056b3;
+    margin-top:0;
+}
+
+.tarjeta-principal p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* ======== BOTÓN ANIMADO ======== */
+
+.boton-animado{
+
+    margin-top:20px;
+
+    padding:15px 35px;
+
+    border:none;
+    border-radius:40px;
+
+    background:linear-gradient(90deg,#00a8ff,#0056b3);
+
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.35s;
+}
+
+.boton-animado:hover{
+
+    transform:scale(1.1);
+
+    box-shadow:0 10px 20px rgba(0,123,255,.4);
+}
+
+/* ======== IMAGEN ======== */
+
+.seccion-imagen{
+
+    text-align:center;
+    margin:50px 0;
+
+}
+
+.imagen-hover{
+
+    width:420px;
+    max-width:100%;
+
+    border-radius:20px;
+
+    border:6px solid white;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+    transition:.5s;
+
+}
+
+.imagen-hover:hover{
+
+    transform:scale(1.08) rotate(2deg);
+
+}
+
+.seccion-imagen p{
+
+    font-size:18px;
+    margin-top:15px;
+    color:#555;
+
+}
+
+/* ======== BOTÓN CON SOMBRA ======== */
+
+.seccion-boton{
+
+    text-align:center;
+
+    margin:50px 0;
+
+}
+
+.boton-sombra{
+
+    padding:18px 40px;
+
+    border:none;
+    border-radius:40px;
+
+    background:linear-gradient(90deg,#ffd700,#f39c12);
+
+    color:#333;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:0 8px 15px rgba(0,0,0,.3);
+
+    transition:.35s;
+
+}
+
+.boton-sombra:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 20px 30px rgba(0,0,0,.35);
+
+}
+
+/* ======== TARJETA ELEVABLE ======== */
+
+.tarjeta-elevable{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+
+    transition:.35s;
+
+    margin-bottom:40px;
+
+}
+
+.tarjeta-elevable:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.tarjeta-elevable h2{
+
+    color:#0056b3;
+    margin-top:0;
+
+}
+
+.tarjeta-elevable ul{
+
+    list-style:none;
+    padding:0;
+
+}
+
+.tarjeta-elevable li{
+
+    padding:10px;
+    margin:8px 0;
+
+    background:#eef8ff;
+
+    border-left:6px solid #00a8ff;
+
+    border-radius:8px;
+
+    font-size:17px;
+
+}
+
+/* ======== PIE DE PÁGINA ======== */
+
+.pie-pagina{
+
+    background:linear-gradient(90deg,#003566,#00509d);
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    font-size:17px;
+
+    margin-top:40px;
+
+}
+
